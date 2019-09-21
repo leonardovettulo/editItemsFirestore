@@ -9,9 +9,10 @@ import { AngularFirestoreModule } from "angularfire2/firestore";
 import { ItemsComponent } from "./components/items/items.component";
 
 import { ItemService } from "./services/item.service";
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
-  declarations: [AppComponent, ItemsComponent],
+  declarations: [AppComponent, ItemsComponent, NavbarComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
